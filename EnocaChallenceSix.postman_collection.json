@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "75e48b9f-7bc6-4444-8661-5e9fefc90288",
+		"name": "EnocaChallenceSix",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9802082"
+	},
+	"item": [
+		{
+			"name": "Post Company",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Enoca\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.1.32:8080/company",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"32"
+					],
+					"port": "8080",
+					"path": [
+						"company"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Companys",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.32:8080/company",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"32"
+					],
+					"port": "8080",
+					"path": [
+						"company"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.32:8080/employees",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"32"
+					],
+					"port": "8080",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Employees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Sedat Rusen\",\r\n    \"email\":\"sedatrusen@mail.com\",\r\n    \"jobId\":\"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.1.32:8080/employees",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"32"
+					],
+					"port": "8080",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
